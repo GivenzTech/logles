@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+nav {
+    background-color: #063306;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    height: 50px;
+    position: absolute;
+    left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.product-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #333;
+}
+
+footer {
+    background-color: #063306;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer button {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 20px;
+}
+
+footer button:hover {
+    background-color: #111;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 20px;
+}
+
+form button:hover {
+    background-color: #111;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 20px;
+    background-color: #006400;
+    text-align: center;  /* Centering the text content */
+}
+
+h3, h4 {
+    color: #063003;
+}
+
+p {
+    color: #ffff;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;  /* Centering the text content */
+}
+
+.product-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #006400;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #fff;
+}
+
+.footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer button {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 20px;
+}
+
+.footer button:hover {
+    background-color: #111;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.footer button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.footer p {
+    margin-top: 20px;
+}
